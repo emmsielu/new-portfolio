@@ -1,0 +1,54 @@
+/* - - - - -  grid - - - - - */
+
+.container {
+    display: grid;
+    grid-template-rows: 100px 120px auto 120px;
+    margin: 0 2%;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.logo {
+    /* display: flex; */
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.page-title {
+    /* display: flex; */
+}
+
+.positioning-statement {}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(4, 225px);
+    grid-gap: 10px;
+}
+
+.content {}
+
+.content img {
+    width: 300px;
+    height: 225px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.about {
+    grid-column: 1 / 3;
+}
+
+.contact {
+    grid-column: 3 / -1;
+}
