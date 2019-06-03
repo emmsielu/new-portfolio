@@ -11,10 +11,44 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 300;
 }
 
-.menu a {
+a {
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+a:hover {
+    color: darkseagreen;
+    transition: 0.5s;
+}
+
+.nav-projects,
+.nav-about-contact {
     text-transform: uppercase;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.625rem;
+    font-weight: 300;
+}
+
+.positioning-statement {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
 }
